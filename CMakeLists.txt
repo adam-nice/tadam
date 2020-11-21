@@ -19,4 +19,4 @@ set(MTM_FLAGS_RELEASE "${MTM_FLAGS_DEBUG} -DNDBUG")
 set(CMAKE_C_FLAGS ${MTM_FLAGS_DEBUG})
 
 # Tell CMake to build an executable named mtm_tot, specifying the comprising file(s)
-add_executable(my_executable  MyProg.c)
+add_executable(my_executable priority_queue.c priority_queue.h)
